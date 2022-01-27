@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import logoImage from '../../../public/logo.png'
+import logoImage from '../../public/logo.png'
 
 export default function Footer() {
     return (
@@ -17,10 +17,10 @@ export default function Footer() {
                                 <a href="../index.html">Home</a>
                             </li>
                             <li>
-                                <a href="https://pt-br.facebook.com/AmorosineTeam/" target="_blank" rel="noopener">Facebook</a>
+                                <a href="https://pt-br.facebook.com/AmorosineTeam/" target="_blank" rel="noreferrer">Facebook</a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/amorosineteam/" target="_blank">Instagram</a>
+                                <a href="https://www.instagram.com/amorosineteam/" target="_blank" rel="noreferrer">Instagram</a>
                             </li>
 
                         </ul>
