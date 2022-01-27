@@ -32,7 +32,7 @@ export default function Header() {
                                     <Link href="./form"><a target="_blank" rel="noopener">Voluntarie-se</a></Link>
                                 </li>
                                 <li>
-                                    <a href="./loginadm" target="_blank">Administrador</a>
+                                    <Link href="./loginAdm"><a target="_blank" rel="noopener">Administrador</a></Link>
                                 </li>
                             </ul>
                         </nav>

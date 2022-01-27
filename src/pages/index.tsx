@@ -3,18 +3,10 @@ import Footer from '../components/Footer/'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import galeria1 from '../assets/img/galeria1.jpeg'
-import galeria2 from '../assets/img/galeria2.jpeg'
-import galeria3 from '../assets/img/galeria3.jpeg'
-import galeria4 from '../assets/img/galeria4.jpeg'
-import galeria5 from '../assets/img/galeria5.jpeg'
-import galeria6 from '../assets/img/galeria6.jpeg'
-
 function HomePage() {
   return (
       <>
         <Header />
-
         <section className="fullContainer" id="aboutSection">
             <div className="container">
                 <h2 className="sectionTitle">Sobre nós</h2>
@@ -78,32 +70,32 @@ function HomePage() {
                 <div className="galleryContainer">
                     <div className="item">
                         <span className="title">Professor Flávio Amorosine</span>
-                        <Image src={galeria1} alt="primeira foto" />
+                        <Image src={"/galeria/galeria1.jpeg"} width="331" height="331" alt="primeira foto" />
                     </div>
 
                     <div className="item">
                         <span className="title">Aula em Oriente</span>
-                        <Image src={galeria2} alt="segunda foto" />
+                        <Image src={"/galeria/galeria2.jpeg"} width="331" height="331" alt="segunda foto" />
                     </div>
 
                     <div className="item">
                         <span className="title">De pai pra filho</span>
-                        <Image src={galeria3} alt="terceira foto" />
+                        <Image src={"/galeria/galeria3.jpeg"} width="331" height="442" alt="terceira foto" />
                     </div>
 
                     <div className="item">
                         <span className="title">Campeonato infantil</span>
-                        <Image src={galeria4} alt="quarta foto" />
+                        <Image src={"/galeria/galeria4.jpeg"} width="331" height="331" alt="quarta foto" />
                     </div>
 
                     <div className="item">
                         <span className="title">Aula adulta em Oriente</span>
-                        <Image src={galeria5} alt="quinta foto" />
+                        <Image src={"/galeria/galeria5.jpeg"} width="331" height="275" alt="quinta foto" />
                     </div>
 
                     <div className="item">
                         <span className="title">Aula infantil em Oriente</span>
-                        <Image src={galeria6} alt="sexta foto" />
+                        <Image src={"/galeria/galeria6.jpeg"} width="331" height="331" alt="sexta foto" />
                     </div>
                 </div>
             </div>
