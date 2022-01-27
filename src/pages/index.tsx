@@ -70,32 +70,32 @@ function HomePage() {
                     <div className="galleryContainer">
                         <div className="item">
                             <span className="title">Professor Flávio Amorosine</span>
-                            <Image src={"/galeria/galeria1.jpeg"} width="331" height="331" alt="primeira foto" />
+                            <Image src={"/HomePage/galeria/galeria1.jpeg"} width="331" height="331" alt="primeira foto" />
                         </div>
 
                         <div className="item">
                             <span className="title">Aula em Oriente</span>
-                            <Image src={"/galeria/galeria2.jpeg"} width="331" height="331" alt="segunda foto" />
+                            <Image src={"/HomePage/galeria/galeria2.jpeg"} width="331" height="331" alt="segunda foto" />
                         </div>
 
                         <div className="item">
                             <span className="title">De pai pra filho</span>
-                            <Image src={"/galeria/galeria3.jpeg"} width="331" height="442" alt="terceira foto" />
+                            <Image src={"/HomePage/galeria/galeria3.jpeg"} width="331" height="442" alt="terceira foto" />
                         </div>
 
                         <div className="item">
                             <span className="title">Campeonato infantil</span>
-                            <Image src={"/galeria/galeria4.jpeg"} width="331" height="331" alt="quarta foto" />
+                            <Image src={"/HomePage/galeria/galeria4.jpeg"} width="331" height="331" alt="quarta foto" />
                         </div>
 
                         <div className="item">
                             <span className="title">Aula adulta em Oriente</span>
-                            <Image src={"/galeria/galeria5.jpeg"} width="331" height="275" alt="quinta foto" />
+                            <Image src={"/HomePage/galeria/galeria5.jpeg"} width="331" height="275" alt="quinta foto" />
                         </div>
 
                         <div className="item">
                             <span className="title">Aula infantil em Oriente</span>
-                            <Image src={"/galeria/galeria6.jpeg"} width="331" height="331" alt="sexta foto" />
+                            <Image src={"/HomePage/galeria/galeria6.jpeg"} width="331" height="331" alt="sexta foto" />
                         </div>
                     </div>
                 </div>
