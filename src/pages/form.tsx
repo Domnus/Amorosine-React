@@ -1,7 +1,15 @@
+import Form from '../components/Form'
+import Footer from '../components/Footer'
+
 export default function Formulario() {
     return (
         <>
-            Formulario W.I.P.
+            <body className="formPage">
+                <main>
+                    <Form />
+                    <Footer />
+                </main>
+            </body>
         </>
     )
 }

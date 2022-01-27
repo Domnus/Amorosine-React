@@ -1,0 +1,174 @@
+:root
+{
+    --themeRed: #e43a47;
+	--themeRedAlt: #c4555e;
+    --gray: #efefef;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body .formPage{
+    font-family: 'Poppins', sans-serif;
+	background-image: linear-gradient(to right, rgb(243, 237, 237), rgb(219, 164, 164));
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+	color: #FFFFFF;
+	background-color: rgba(143, 112, 112, 0.85);
+	border-radius: 15px;
+	padding: 15px;
+}
+
+form label {
+	display: block;
+	margin: 10px 0;
+	transition: 0.5s;
+}
+
+fieldset {
+	border: none;
+}
+
+.titulo {
+	position: relative;
+	width: 100%;
+	font-size: 1.5em;
+	border: 1px solid var(--themeRed);
+	padding: 10px;
+	align-content: center;
+	text-align: center;
+	background-color: var(--themeRed);
+	border-radius: 8px;
+}
+
+section {
+	padding: 20px;
+}
+
+p {
+	font-size: 1.2em;
+	text-align: left;
+}
+
+.input-box {
+	position: relative;
+}
+
+.inputUser:required, .inputUser:optional, .labelInput:empty{
+	background: none;
+	border: none;
+	border-bottom: 1px solid white;
+	margin: 15px 0;
+	outline: none;
+	color: white;
+	font-size: 15px;
+	width: 100%;
+	letter-spacing: 1px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px rgb(155, 124, 124) inset !important;
+}
+
+input:-webkit-autofill{
+    -webkit-text-fill-color: white !important;
+}
+
+.labelInput{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	pointer-events: none;
+	transition: .5s;
+}
+
+.inputUser:focus + .labelInput,
+.inputUser:not(:placeholder-shown) + .labelInput{
+	top: -13px;
+	font-size: 12px;
+	color: rgb(209, 186, 186);
+}
+
+#data_nascimento{
+	border: none;
+	padding: 8px;
+	border-radius: 10px;
+	outline: none;
+	font-size: 15px;
+	margin-bottom: 22px;
+}
+
+.submit{
+	background: var(--themeRedAlt);
+	width: 100%;
+	border: none;
+	padding: 17px;
+	color: white;
+	font-size: 17px;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: .2s;
+}
+
+.submit:hover{
+	background: var(--themeRed);
+	font-size: 1.2em;
+}
+
+/* Footer */
+footer .container{
+	margin: 0 auto;
+	padding: 5px;
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar
+{
+    width: 12px;
+}
+
+::-webkit-scrollbar-track
+{
+    background-color:var(--themeRed);
+    border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: var(--gray);
+    border-radius: 10px;
+}
+
+/* Responsividade */
+
+@media screen and (min-width:900px) {
+	form {
+		width: 50vw;
+		margin: 1vh auto 1vh auto;
+	}
+
+	body {
+		background-size: auto 1000px;
+	}
+}
+
+@media screen and (min-width:1000px) {
+	form {
+		width: 40vw;
+		margin: 1vh auto 1vh auto;
+	}
+}
+
+@media screen and (max-width:900px) {
+	form {
+		width: 80vw;
+		margin: 1vh auto 1vh auto;
+	}
+}

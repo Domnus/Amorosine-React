@@ -16,6 +16,11 @@ botton, body
     font-family: 'Poppins', sans-serif;
 }
 
+.homePage
+{
+    background-color: #FFFFFF;
+}
+
 *
 {
     margin:0;
