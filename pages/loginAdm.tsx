@@ -12,7 +12,7 @@ export default function LoginAdm() {
                     <input className="login_input" type="password" placeholder="Password" />
                     <span className="login_input_border"></span>
 
-                    <Link href='/admPage'><input className="login_submit" type="submit" value="Login" ></input></Link>
+                    <Link href='/admPage' passHref><input className="login_submit" type="submit" value="Login" ></input></Link>
                     <a className="login_reset" href="#">Esqueci minha senha</a>
                 </form>
             </div>

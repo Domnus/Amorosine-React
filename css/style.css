@@ -3,6 +3,7 @@
 :root
 {
     --themeRed: #e43a47;
+	--themeRedAlt: #c4555e;
     --gray: #efefef;
     --input-linear:linear-gradient(120deg, #e43a47, #efefef);
     --button-linear:linear-gradient(120deg, #e43a47, #c7c3c3, #e43a47);
@@ -270,7 +271,7 @@ header nav ul li a:hover
 
 .programs .boxContainer .box .cardImage
 {
-    width: 100%;
+    width:               100%;
     height:              300px;
     background-position: center;
     background-size:     cover;
@@ -281,7 +282,7 @@ header nav ul li a:hover
 
 .programs .boxcontainer .box .cardImage::after
 {
-    width:               100%;
+    width: 100%;
     height:              100%;
     background-position: center;
     background-size:     cover;

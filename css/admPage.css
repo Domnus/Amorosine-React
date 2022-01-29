@@ -1,0 +1,112 @@
+/* Modal Header */
+.modal-header {
+  padding:                 2px 16px;
+  background-color:        var(--themeRed);
+  color:                   white;
+  text-align:              center;
+  border-top-left-radius:  10px;
+  border-top-right-radius: 10px;
+}
+
+.addModal {
+  display: none; /* Hidden by default */
+  position:         fixed; /* Stay in place */
+  z-index:          1; /* Sit on top */
+  left:             0;
+  top:              0;
+  width:            100%; /* Full width */
+  height:           100%; /* Full height */
+  overflow:         auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-content {
+  position:                absolute;
+  top:                     calc(50% - 150px);
+  left:                    calc(50% - 150px);
+  background-color:        #fefefe;
+  margin:                  auto;
+  padding:                 0;
+  border:                  1px solid #888;
+  border-radius:           10px;
+  border-top-left-radius:  11px;
+  border-top-right-radius: 11px;
+  width:                   300px;
+  box-shadow:              0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name:          animatetop;
+  animation-duration: 0.4s
+}
+
+.formAcoes {
+  margin: 10px 10px;
+}
+
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+/* The Close Button */
+.close {
+  color:       #aaa;
+  float:       right;
+  font-size:   28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color:           black;
+  text-decoration: none;
+  cursor:          pointer;
+}
+
+.input-box {
+  text-align: center;
+}
+
+.inputUserAdm:required, .inputUserAdm:optional, .labelInputAdm:empty{
+	font-size:      15px;
+  padding:        5px;
+	width:          100%;
+	letter-spacing: 1px;
+  border:         none;
+  border-bottom:  2px solid red;
+}
+
+#target {
+  width: 200px;
+}
+
+.botaoEnviar {
+  position:         relative;
+  left:             50%;
+  background-color: var(--themeRed);
+  color:            #fff;
+  transform:        translate(-50%);
+  bottom:           -15px;
+  border-radius:    60px;
+  padding:          7px 15px;
+  margin-bottom:    20px;
+  border:           0;
+  outline:          none;
+  cursor:           pointer;
+}
+
+.botaoEnviar:hover {
+  transform: translate(-50%);
+  background-color: #bd1c29;
+  transition:       0.2s;
+  border:           5px solid #bd1c29;
+  font-size:        1.1em;
+  height:           auto;
+}
+
+img[src=""] {
+    display: none;
+}

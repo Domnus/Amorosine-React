@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 export default function Formulario() {
     return (
         <>
-            <body className="formPage">
+            <body className="formPage bodyFormVoluntario">
                 <main>
                     <Form />
                     <Footer />
