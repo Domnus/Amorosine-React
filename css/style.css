@@ -4,16 +4,13 @@
 {
     --themeRed: #e43a47;
     --gray: #efefef;
+    --input-linear:linear-gradient(120deg, #e43a47, #efefef);
+    --button-linear:linear-gradient(120deg, #e43a47, #c7c3c3, #e43a47);
 }
 
 html
 {
     scroll-behavior: smooth;
-}
-
-botton, body
-{
-    font-family: 'Poppins', sans-serif;
 }
 
 *

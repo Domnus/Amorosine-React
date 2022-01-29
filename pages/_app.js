@@ -1,5 +1,8 @@
 import '../css/style.css'
 import '../css/Form.css'
+import '../css/admPage.css'
+import '../css/loginAdm.css'
+
 import Head from "next/head"
 
 export default function Amorosine({ Component, pageProps }) {

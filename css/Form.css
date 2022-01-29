@@ -15,14 +15,14 @@ body .formPage{
     box-sizing: border-box;
 }
 
-form {
+.formVoluntario {
 	color: #FFFFFF;
 	background-color: rgba(143, 112, 112, 0.85);
 	border-radius: 15px;
 	padding: 15px;
 }
 
-form label {
+.formVoluntario label {
 	display: block;
 	margin: 10px 0;
 	transition: 0.5s;

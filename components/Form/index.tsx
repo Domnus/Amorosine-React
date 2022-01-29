@@ -2,7 +2,7 @@ import Input from '../Input'
 
 export default function Form() {
     return (
-        <form>
+        <form className="formVoluntario">
             <fieldset>
                 <legend className="titulo">Dados pessoais</legend>
 
